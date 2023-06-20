@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+:focus{
+    outline: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+#result{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    user-select: none;
+}
+td{
+    width: 90px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 5px;
+}
+.no-val{
+    border: none;
+    font-style: oblique;
+}
+input{
+    border-radius: 3px;
+    border: 3px black solid;
+}
+input:focus{
+    border: 3px green solid;
+}
+div{
+    height: 100%;
+    width: 100%;
+}
+#buttontd:hover{
+    background-color: antiquewhite;
+}

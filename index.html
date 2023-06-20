@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binomial Tree Calculator</title>
+    <link rel="stylesheet" href="binomtree.css">
+    <script type="text/javascript" src="binomtree.js" type="" defer></script>
+</head>
+<body>
+    <table id="result">
+        <tr><td rowspan=4>Initial value</td><td>S:</td><td colspan="7"><input type="text" name="initialS" id="initialS"></td><td rowspan="4" id="buttontd"><div id="button"><p>Calculate</p></div></td></tr>
+        <tr><td>f:</td><td colspan="7"><input type="text" name="initialf" id="initialf" ></td></tr>
+        <tr><td>u:</td><td colspan="7"><input type="text" name="urate" id="urate" ></td></tr>
+        <tr><td>d:</td><td colspan="7"><input type="text" name="drate" id="drate" ></td></tr>
+        <tr><td class="no-val" rowspan=8 colspan="2"></td><td class="no-val" rowspan=6 colspan="2"></td><td class="no-val" rowspan=4 colspan=2></td><td class="no-val" rowspan=2 colspan="2"></td><td>S</td><td id="S51"></td></tr>
+        <tr><td>f</td><td id="f51"></td></tr>
+        <tr><td>S</td><td id="S41"></td><td class="no-val" colspan=2 rowspan=2></td></tr>
+        <tr><td>f</td><td id="f41"></td></tr>
+        <tr><td>S</td><td id="S31"></td><td class="no-val" colspan=2>&#10548;</td><td>S</td><td id="S52"></td></tr>
+        <tr><td>f</td><td id="f31"></td><td class="no-val" colspan=2>&#10549;</td><td>f</td><td id="f52"></td></tr>
+        <tr><td>S</td><td id="S21"></td><td class="no-val" colspan=2>&#10548;</td><td>S</td><td id="S42"></td><td class="no-val" rowspan=2 colspan=2></td></tr>
+        <tr><td>f</td><td id="f21"></td><td class="no-val" colspan=2>&#10549;</td><td>f</td><td id="f42"></td></tr>
+        <tr><td>S</td><td id="S11"></td><td class="no-val" colspan=2>&#10548;</td><td>S</td><td id="S32"></td><td class="no-val" colspan=2>&#10548;</td><td>S</td><td id="S53"></td></tr>
+        <tr><td>f</td><td id="f11"></td><td class="no-val" colspan=2>&#10549;</td><td>f</td><td id="f32"></td><td class="no-val" colspan=2>&#10549;</td><td>f</td><td id="f53"></td></tr>
+        <tr><td class="no-val" rowspan="8" colspan="2"></td><td>S</td><td id="S22"></td><td class="no-val" colspan=2>&#10548;</td><td>S</td><td id="S43"></td><td class="no-val" colspan=2 rowspan="2"></td></tr>
+        <tr><td>f</td><td id="f22"></td><td class="no-val" colspan=2>&#10549;</td><td>f</td><td id="f43"></td></tr>
+        <tr><td class="no-val" rowspan=6 colspan="2"></td><td>S</td><td id="S33"></td><td class="no-val" colspan=2>&#10548;</td><td>S</td><td id="S54"></td></tr>
+        <tr><td>f</td><td id="f33"></td><td class="no-val" colspan=2>&#10549;</td><td>f</td><td id="f54"></td></tr>
+        <tr><td class="no-val" rowspan="4" colspan=2></td><td>S</td><td id="S44"></td><td class="no-val" colspan=2 rowspan=2></td></tr>
+        <tr><td>S</td><td id="f44"></td></tr>
+        <tr><td class="no-val" rowspan="2" colspan="2"></td><td>S</td><td id="S55"></td></tr>
+        <tr><td>f</td><td id="f55"></td></tr>
+    </table>
+    </body>
+</html>
