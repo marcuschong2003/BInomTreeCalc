@@ -7,49 +7,25 @@
     outline: none;
 }
 body{
-    height: 100%;
+    top: 0%;
+    left: 0%;
     width: 100%;
-    background-color: grey;
-}
-#result{
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 20px;
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
+    background-color: antiquewhite;
     overflow: scroll;
 }
 table{
+    position: absolute;
     border-collapse: collapse;
-    width: 100%;
-    user-select: none;
+    max-width: 500px;
 }
 td{
-    max-width: 10vw;
-    height: 20px;
-    border: 1px solid black;
-    text-align: center;
+    border: 1px black solid;
     padding: 5px 5px;
 }
 .no-val{
     border: none;
-    font-style: oblique;
-}
-input{
-    border-radius: 3px;
-    border: 3px black solid;
-}
-input:focus{
-    border: 3px green solid;
-}
-div{
-    height: 100%;
-    width: 100%;
 }
 #buttontd:hover{
-    background-color: antiquewhite;
+    background-color: mediumturquoise;
 }
